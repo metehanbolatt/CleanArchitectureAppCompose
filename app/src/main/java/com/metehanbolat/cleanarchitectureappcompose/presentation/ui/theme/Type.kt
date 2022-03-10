@@ -1,4 +1,4 @@
-package com.metehanbolat.cleanarchitectureappcompose.ui.theme
+package com.metehanbolat.cleanarchitectureappcompose.presentation.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
