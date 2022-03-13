@@ -3,6 +3,7 @@
     package="com.metehanbolat.cleanarchitectureappcompose">
 
     <application
+        android:name=".CoinApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
