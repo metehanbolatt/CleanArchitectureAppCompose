@@ -8,8 +8,6 @@ import androidx.lifecycle.viewModelScope
 import com.metehanbolat.cleanarchitectureappcompose.common.Constants.PARAM_COIN_ID
 import com.metehanbolat.cleanarchitectureappcompose.common.Resource
 import com.metehanbolat.cleanarchitectureappcompose.domain.use_case.get_coin.GetCoinUseCase
-import com.metehanbolat.cleanarchitectureappcompose.domain.use_case.get_coins.GetCoinsUseCase
-import com.metehanbolat.cleanarchitectureappcompose.presentation.coin_detail.components.CoinDetailState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

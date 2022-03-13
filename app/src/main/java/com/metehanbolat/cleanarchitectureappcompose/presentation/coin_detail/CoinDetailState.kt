@@ -1,4 +1,4 @@
-package com.metehanbolat.cleanarchitectureappcompose.presentation.coin_detail.components
+package com.metehanbolat.cleanarchitectureappcompose.presentation.coin_detail
 
 import com.metehanbolat.cleanarchitectureappcompose.domain.model.CoinDetail
 
