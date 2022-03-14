@@ -21,7 +21,7 @@ import com.metehanbolat.cleanarchitectureappcompose.presentation.coin_detail.com
 import com.metehanbolat.cleanarchitectureappcompose.presentation.coin_detail.components.TeamListItem
 
 @Composable
-fun CoinListScreen(
+fun CoinDetailScreen(
     viewModel: CoinDetailViewModel = hiltViewModel()
 ) {
     val state = viewModel.state.value
@@ -38,7 +38,7 @@ fun CoinListScreen(
                     ) {
                         Text(
                             text = "${coin.rank}. ${coin.name} (${coin.symbol})",
-                            style = MaterialTheme.typography.h2,
+                            style = MaterialTheme.typography.h5,
                             modifier = Modifier.weight(8f)
                         )
                         Text(
@@ -59,7 +59,7 @@ fun CoinListScreen(
                     Spacer(modifier = Modifier.height(15.dp))
                     Text(
                         text = "Tags",
-                        style = MaterialTheme.typography.h3
+                        style = MaterialTheme.typography.h6
                     )
                     Spacer(modifier = Modifier.height(15.dp))
                     FlowRow(
@@ -74,7 +74,7 @@ fun CoinListScreen(
                     Spacer(modifier = Modifier.height(15.dp))
                     Text(
                         text = "Team members",
-                        style = MaterialTheme.typography.h3
+                        style = MaterialTheme.typography.h6
                     )
                     Spacer(modifier = Modifier.height(15.dp))
                 }
